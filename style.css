@@ -1,0 +1,112 @@
+*{
+  font-size: 20px;
+}
+  /*formato general*/
+/*formato body*/
+body{
+  height: 100%;
+  background-color: #c4dabd;
+  background-image: url("Assets/Imagenes/fondo-pag.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.whatsapp-img{
+  width: 5%;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+
+}
+li {
+  list-style-type: none;
+  font-family: helvetica, Arial, sans-serif;
+}
+/*formato header*/
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 2%;
+  background-color: #F7F7F7;
+}
+header img{
+  width: 15%;
+}
+header nav{
+  width: 60%;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: #4c9141;
+}
+/*formato main*/
+main h1{
+  text-align: center;
+  color: #4c9141;
+  font-family: helvetica, Arial, sans-serif;
+}
+main h2 {
+  text-align: center;
+  color : #007B4C;
+}
+main p{
+  margin-left: 5%;
+  text-align: center;
+  width: 90%;
+  font-size: 0.85rem;
+}
+form {
+  margin-left: 20%;
+  margin-bottom: 20%;
+}
+
+/*formato footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1.5px black inset;
+}
+.footer-nav{
+  margin-right: 2%;
+}
+footer ul li{
+  margin-top: 10%;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+}
+footer section{
+  text-align: center;
+}
+footer section h4{
+  font-size: 0.8rem;
+}
+footer section h5{
+  font-size: 0.6rem;
+}
+.footer-logos{
+  width: 20px;
+  border-radius: 50%;
+}
+/*formato pagina index*/
+
+/*formato pagina presentacion*/
+
+/*formato pagina servicios*/
+
+/*formato pagina plagas*/
+
+/*formato pagina contacto*/
