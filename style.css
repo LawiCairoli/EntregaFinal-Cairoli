@@ -7,7 +7,7 @@
   font-size: 20px;
   padding: 0rem;
   margin: 0rem;
-
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /*formato body*/
@@ -113,6 +113,10 @@ footer div h5{
   border-radius: 50%;
 }
 /*formato pagina index*/
+.resaltar {
+  font-family: "fuenteMCF", helvetica, Arial, sans-serif;
+  color: #4c9141;
+}
 
 /*formato pagina presentacion*/
 .presentacion h2{
