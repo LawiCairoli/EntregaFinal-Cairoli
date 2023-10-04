@@ -1,4 +1,8 @@
-  /*formato general*/
+@font-face {
+  font-family: "fuenteMCF";
+  src: url(Assets/Font/Calligraffitti-Regular.ttf);
+}
+/*formato general*/
 *{
   font-size: 20px;
   padding: 0rem;
@@ -49,9 +53,16 @@ main{
 }
 main h1 {
   text-align: center;
-  color: #4c9141;
+  color: #8C928D;
   font-family: helvetica, Arial, sans-serif;
+  font-size: 4rem;
   padding-top: 2%;
+}
+.encabezado{
+  font-family: "fuenteMCF", helvetica, Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #4c9141;
 }
 main h2 {
   text-align: center;
