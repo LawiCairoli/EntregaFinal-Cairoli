@@ -85,6 +85,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   border-top: 1.5px black inset;
+  flex-wrap: wrap;
 }
 .footer-nav{
   margin-right: 2%;
@@ -97,13 +98,14 @@ footer ul li a {
   color: black;
   font-size: 0.7rem;
 }
-footer section{
+footer div{
   text-align: center;
 }
-footer section h4{
+footer div h4{
   font-size: 0.8rem;
+  color: #4c9141
 }
-footer section h5{
+footer div h5{
   font-size: 0.6rem;
 }
 .footer-logos{
@@ -113,6 +115,16 @@ footer section h5{
 /*formato pagina index*/
 
 /*formato pagina presentacion*/
+.presentacion h2{
+  padding-left: 1%;
+}
+.presentacion p{
+  padding-left: 2%;
+}
+.presentacion p b{
+  font-family: "fuenteMCF", helvetica, Arial, sans-serif;
+  color: #4c9141;
+}
 
 /*formato pagina servicios*/
 .servicios{
