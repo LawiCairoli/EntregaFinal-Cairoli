@@ -22,12 +22,12 @@ body{
   position: fixed;
   bottom: 3%;
   right: 3%;
-
 }
 li {
   list-style-type: none;
   font-family: helvetica, Arial, sans-serif;
 }
+
 /*formato header*/
 header{
   width: 100%;
@@ -42,12 +42,13 @@ header img{
   width: 20%;
   padding-left: 5%;
 }
-}
+
 /*formato main*/
-main h1{
+main h1 {
   text-align: center;
   color: #4c9141;
   font-family: helvetica, Arial, sans-serif;
+  padding-top: 2%;
 }
 main h2 {
   text-align: center;
@@ -100,6 +101,37 @@ footer section h5{
 /*formato pagina presentacion*/
 
 /*formato pagina servicios*/
+.servicios{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 35px 200px 200px;
+}
+.servicios h2 {
+  font-family: helvetica, Arial, sans-serif;
+  color: #1F2724;
+  font-size: 1.4rem;
+  text-align: center;
+  text-decoration-line: underline;
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+.servicios p{
+padding-left: 4%;
+font-size: 0.8rem;
+font-weight: 600;
+grid-column: 1/3;
+grid-row: 2/4;
+}
+.servicios img{
+  
+  width: 85%;
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+.servicios:hover{
+  padding: 2%;
+  transition: 1s;
+}
 
 /*formato pagina plagas*/
 
