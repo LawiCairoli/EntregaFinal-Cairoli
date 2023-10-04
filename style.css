@@ -1,5 +1,8 @@
 *{
   font-size: 20px;
+  padding: 0rem;
+  margin: 0rem;
+  
 }
   /*formato general*/
 /*formato body*/
@@ -32,10 +35,10 @@ header{
   align-items: center;
   position: sticky;
   top: 2%;
-  background-color: #F7F7F7;
 }
 header img{
-  width: 15%;
+  width: 20%;
+  padding-left: 5%;
 }
 header nav{
   width: 60%;
