@@ -1,10 +1,11 @@
+  /*formato general*/
 *{
   font-size: 20px;
   padding: 0rem;
   margin: 0rem;
-  
+
 }
-  /*formato general*/
+
 /*formato body*/
 body{
   height: 100%;
@@ -30,6 +31,7 @@ li {
 /*formato header*/
 header{
   width: 100%;
+  background-color: #9DC183;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,17 +42,6 @@ header img{
   width: 20%;
   padding-left: 5%;
 }
-header nav{
-  width: 60%;
-}
-header nav ul{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-header nav ul li a{
-  text-decoration: none;
-  color: #4c9141;
 }
 /*formato main*/
 main h1{
