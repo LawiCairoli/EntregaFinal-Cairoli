@@ -72,6 +72,7 @@ main p{
   font-size: 0.85rem;
 }
 
+
 /*formato footer*/
 footer {
   display: flex;
@@ -115,7 +116,7 @@ footer div h5{
 }
 #carouselExampleSlidesOnly{
   display: grid;
-  grid-template-columns: 0.5fr 1 fr 0.5fr;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
   grid-template-rows: 100rem;
 }
 .carousel-inner{
