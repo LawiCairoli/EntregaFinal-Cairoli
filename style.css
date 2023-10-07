@@ -17,7 +17,7 @@ body{
 .whatsapp-img{
   width: 5%;
   border-radius: 50%;
-  /* position: fixed; */
+  position: fixed;
   bottom: 3%;
   right: 5%;
 }
