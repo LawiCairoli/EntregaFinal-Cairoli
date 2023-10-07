@@ -12,14 +12,14 @@
 
 /*formato body*/
 body{
-  background-color: #a3c870;
+  background-color: #ffffff;
 }
 .whatsapp-img{
   width: 5%;
   border-radius: 50%;
   position: fixed;
   bottom: 3%;
-  right: 3%;
+  right: 5%;
 }
 li {
   list-style-type: none;
@@ -28,19 +28,26 @@ li {
 /*formato header*/
 header{
   width: 100%;
-  background-color: #a3c870;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
-  top: 0%;
+  top: 2%;
   z-index: 100;
+  margin-top: 2%;
+  margin-bottom: 5%;
   
 
 }
 header img{
   width: 30%;
   padding-left: 5%;
+}
+.navbar-nav{
+  font-family: helvetica, Arial, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 800;
 }
 
 /*formato main*/
@@ -82,18 +89,17 @@ footer {
   align-items: center;
   border-top: 1.5px black inset;
   flex-wrap: wrap;
+  margin: 0% 12%;
 }
 .footer-nav{
   margin-right: 2%;
-}
-footer ul li{
-  margin-top: 10%;
+  
 }
 footer ul li a {
   text-decoration: none;
   color: black;
-  font-size: 0.7rem;
-  font-weight: 700;
+  font-size: 0.6rem;
+  font-weight: 100;
 }
 footer div{
   text-align: center;
@@ -190,7 +196,10 @@ footer div h5{
   color: #6FAC21;
   text-shadow: 1px 1px 2px black;
   text-align: center;
-  margin: 5%;
+  margin: 2%;
+}
+.containerPlagas p{
+  margin: 0% 5%;
 }
 .containerPlagas div{
   display: flex;
@@ -200,7 +209,11 @@ footer div h5{
 }
 .containerPlagas div img{
   border-radius: 5%;
-  margin: 5%;
+  margin: 2%;
+}
+.containerPlagas div img:hover{
+  transition: 3s;
+  width: 30%;
 }
 
 /*formato pagina contacto*/
