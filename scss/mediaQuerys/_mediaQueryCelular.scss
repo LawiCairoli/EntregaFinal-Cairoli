@@ -1,0 +1,59 @@
+@media only screen and (max-width: 330px) {
+  header img{
+    width: 45%;
+  }
+  body{
+    width: 330px;
+    main{
+      h1{
+        font-size: 1.5rem;
+        .encabezado{
+          font-size: 1.5rem;
+        }
+      }
+      h2{
+        font-size: 0.8rem;
+      }
+    }  
+    .whatsapp-img{
+      width: 10%;
+    }
+  } 
+  
+  .encabezado{
+    font-size: 1.5rem;
+  }
+  .inicioPresentacion{
+    text-align: justify;
+  } 
+  footer{
+    display: inline;
+    ul li a{
+      font-weight: 100;
+      font-size: 0.6rem;
+    }
+    div{
+      h4{
+        font-size: 0.6rem;
+      }
+      h5{
+        font-size: 0.5rem;
+      }
+    }
+  } 
+  .servicios{
+    display: block;
+    h2{
+      font-size: 1rem;
+    }
+    img{
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 5%;
+    }
+    p{
+      font-size: 0.7rem;
+      font-weight: 200;
+    }
+  }  
+}

@@ -215,4 +215,101 @@ form {
   margin-bottom: 20%;
 }
 
+@media only screen and (max-width: 330px) {
+  header img {
+    width: 45%;
+  }
+  body {
+    width: 330px;
+  }
+  body main h1 {
+    font-size: 1.5rem;
+  }
+  body main h1 .encabezado {
+    font-size: 1.5rem;
+  }
+  body main h2 {
+    font-size: 0.8rem;
+  }
+  body .whatsapp-img {
+    width: 10%;
+  }
+  .encabezado {
+    font-size: 1.5rem;
+  }
+  .inicioPresentacion {
+    text-align: justify;
+  }
+  footer {
+    display: inline;
+  }
+  footer ul li a {
+    font-weight: 100;
+    font-size: 0.6rem;
+  }
+  footer div h4 {
+    font-size: 0.6rem;
+  }
+  footer div h5 {
+    font-size: 0.5rem;
+  }
+  .servicios {
+    display: block;
+  }
+  .servicios h2 {
+    font-size: 1rem;
+  }
+  .servicios img {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  .servicios p {
+    font-size: 0.7rem;
+    font-weight: 200;
+  }
+}
+@media only screen and (min-width: 331px) and (max-width: 770px) {
+  header img {
+    width: 45%;
+  }
+  body main h1 {
+    font-size: 1.7rem;
+  }
+  body main h1 .encabezado {
+    font-size: 1.5rem;
+  }
+  body main h2 {
+    font-size: 0.8rem;
+  }
+  body .whatsapp-img {
+    width: 10%;
+  }
+  footer ul li a {
+    font-weight: 100;
+    font-size: 0.6rem;
+  }
+  footer div h4 {
+    font-size: 0.6rem;
+  }
+  footer div h5 {
+    font-size: 0.5rem;
+  }
+  .servicios {
+    display: block;
+  }
+  .servicios h2 {
+    font-size: 1rem;
+  }
+  .servicios img {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+  .servicios p {
+    font-size: 0.7rem;
+    font-weight: 200;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
