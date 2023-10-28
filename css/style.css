@@ -186,4 +186,33 @@ footer .footer-nav {
   transition: 2s;
 }
 
+.containerPlagas h2 {
+  color: #6FAC21;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  margin: 2%;
+}
+.containerPlagas p {
+  margin: 0% 5%;
+}
+.containerPlagas div {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+  flex-wrap: wrap;
+}
+.containerPlagas div img {
+  border-radius: 5%;
+  margin: 2%;
+}
+.containerPlagas div img:hover {
+  transition: 3s;
+  width: 30%;
+}
+
+form {
+  margin-left: 20%;
+  margin-bottom: 20%;
+}
+
 /*# sourceMappingURL=style.css.map */

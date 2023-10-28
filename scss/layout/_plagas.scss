@@ -1,0 +1,25 @@
+.containerPlagas {
+  h2{
+    color: #6FAC21;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    margin: 2%;
+  }
+  p{
+    margin: 0% 5%;
+  }
+  div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    flex-wrap: wrap;
+    img{
+      border-radius: 5%;
+      margin: 2%;
+      &:hover{
+        transition: 3s;
+        width: 30%;
+      }
+    }
+  }
+}
