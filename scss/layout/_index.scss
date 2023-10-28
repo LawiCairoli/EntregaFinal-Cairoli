@@ -1,0 +1,15 @@
+.resaltar {
+  font-family: "fuenteMCF", helvetica, Arial, sans-serif;
+  color: #6FAC21;
+}
+  
+#carouselExampleSlidesOnly{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 40rem;
+  .carousel-inner{
+    grid-column: 2/3;
+    grid-row: 1/2;    
+  }
+}
+  

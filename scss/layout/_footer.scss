@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1.5px black inset;
+  flex-wrap: wrap;
+  margin: 0% 12%;
+  ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.6rem;
+    font-weight: 100;
+    &:hover{
+        background-color: #4c9141;
+        font-size: 0.9rem;
+    }
+  }
+  div{
+    text-align: center;
+    h4{
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #4c9141
+    }  
+    h5{
+      font-size: 0.6rem;
+    }
+  }
+  .footer-logos{
+    width: 20px;
+    border-radius: 50%;
+  }
+  .footer-nav{
+    margin-right: 2%; 
+  }
+}

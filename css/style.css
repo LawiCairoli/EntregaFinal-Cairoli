@@ -45,6 +45,10 @@ header .navbar-nav {
   font-size: 0.6rem;
   font-weight: 800;
 }
+header .navbar-nav a:hover {
+  background-color: #4c9141;
+  font-size: 0.8rem;
+}
 
 main {
   padding-bottom: 5%;
@@ -68,6 +72,118 @@ main h2 {
   text-align: center;
   color: #007B4C;
   text-shadow: 1px 1px 2px black;
+}
+main p {
+  margin-left: 3%;
+  text-align: justify;
+  width: 90%;
+  font-size: 0.85rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1.5px black inset;
+  flex-wrap: wrap;
+  margin: 0% 12%;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+footer ul li a:hover {
+  background-color: #4c9141;
+  font-size: 0.9rem;
+}
+footer div {
+  text-align: center;
+}
+footer div h4 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #4c9141;
+}
+footer div h5 {
+  font-size: 0.6rem;
+}
+footer .footer-logos {
+  width: 20px;
+  border-radius: 50%;
+}
+footer .footer-nav {
+  margin-right: 2%;
+}
+
+.resaltar {
+  font-family: "fuenteMCF", helvetica, Arial, sans-serif;
+  color: #6FAC21;
+}
+
+#carouselExampleSlidesOnly {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 40rem;
+}
+#carouselExampleSlidesOnly .carousel-inner {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.presentacion h2 {
+  padding-left: 1%;
+  color: #6FAC21;
+  text-shadow: 1px 1px 2px black;
+}
+.presentacion p {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: justify;
+}
+.presentacion p b {
+  font-family: "fuenteMCF", helvetica, Arial, sans-serif;
+  color: #6FAC21;
+}
+
+.servicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1/4fr 1fr 1fr;
+  border: 2%;
+}
+.servicios h2 {
+  font-family: helvetica, Arial, sans-serif;
+  color: #1F2724;
+  font-size: 1.9rem;
+  text-align: center;
+  text-decoration-line: underline;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  color: #6FAC21;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 5%;
+}
+.servicios img {
+  margin-left: 5%;
+  width: 80%;
+  grid-column: 3/4;
+  grid-row: 2/4;
+  border-radius: 5%;
+}
+.servicios p {
+  border: 4%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  grid-column: 1/3;
+  grid-row: 2/4;
+  text-align: justify;
+  margin: 0% 5%;
+}
+.servicios:hover {
+  padding: 2%;
+  transition: 2s;
 }
 
 /*# sourceMappingURL=style.css.map */

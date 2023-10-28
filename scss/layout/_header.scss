@@ -17,5 +17,11 @@ header{
       font-family: helvetica, Arial, sans-serif;
       font-size: 0.6rem;
       font-weight: 800;
+      a{
+        &:hover{
+            background-color: #4c9141;
+            font-size: 0.8rem;
+        }
+      }
     }
   }
