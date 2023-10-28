@@ -1,0 +1,23 @@
+main{
+    padding-bottom: 5%;
+    h1 {
+      text-align: center;
+      color: #606859;
+      font-family: helvetica, Arial, sans-serif;
+      font-size: 4rem;
+      padding-top: 2%;
+      text-shadow: 1px 1px 2px black;
+      .encabezado{
+        font-family: "fuenteMCF", helvetica, Arial, sans-serif;
+        font-size: 4rem;
+        font-weight: 600;
+        color: #6FAC21;
+        text-shadow: 1px 1px 2px black;
+      }
+    }
+    h2 {
+      text-align: center;
+      color : #007B4C;
+      text-shadow: 1px 1px 2px black;
+    }
+  }

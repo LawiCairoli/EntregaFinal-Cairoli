@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "fuenteMCF";
+  src: url(../Assets/Font/Calligraffitti-Regular.ttf);
+}
+/*formato general*/
 * {
   font-size: 20px;
   padding: 0rem;
@@ -5,11 +10,64 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
-header {
-  font-size: 20px;
+body {
+  background-color: #ffffff;
 }
-header h1 {
-  padding-left: 9rem;
+body li {
+  list-style-type: none;
+}
+body .whatsapp-img {
+  width: 5%;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 3%;
+  right: 5%;
+}
+
+header {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 2%;
+  z-index: 100;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+header img {
+  width: 30%;
+  padding-left: 5%;
+}
+header .navbar-nav {
+  font-family: helvetica, Arial, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 800;
+}
+
+main {
+  padding-bottom: 5%;
+}
+main h1 {
+  text-align: center;
+  color: #606859;
+  font-family: helvetica, Arial, sans-serif;
+  font-size: 4rem;
+  padding-top: 2%;
+  text-shadow: 1px 1px 2px black;
+}
+main h1 .encabezado {
+  font-family: "fuenteMCF", helvetica, Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #6FAC21;
+  text-shadow: 1px 1px 2px black;
+}
+main h2 {
+  text-align: center;
+  color: #007B4C;
+  text-shadow: 1px 1px 2px black;
 }
 
 /*# sourceMappingURL=style.css.map */
