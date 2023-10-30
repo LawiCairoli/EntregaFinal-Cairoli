@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "fuenteMCF";
-  src: url(../Assets/Font/Calligraffitti-Regular.ttf);
-}
-/*formato general*/
 * {
   font-size: 20px;
   padding: 0rem;
@@ -10,6 +5,10 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+@font-face {
+  font-family: "fuenteMCF";
+  src: url(../Assets/Font/Calligraffitti-Regular.ttf);
+}
 body {
   background-color: #ffffff;
 }
@@ -41,12 +40,11 @@ header img {
   padding-left: 5%;
 }
 header .navbar-nav {
-  font-family: helvetica, Arial, sans-serif;
   font-size: 0.6rem;
   font-weight: 800;
 }
 header .navbar-nav a:hover {
-  background-color: #4c9141;
+  color: #4c9141;
   font-size: 0.8rem;
 }
 
@@ -95,7 +93,7 @@ footer ul li a {
   font-weight: 100;
 }
 footer ul li a:hover {
-  background-color: #4c9141;
+  color: #4c9141;
   font-size: 0.9rem;
 }
 footer div {
