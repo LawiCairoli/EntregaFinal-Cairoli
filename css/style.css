@@ -11,6 +11,7 @@
 }
 body {
   background-color: #ffffff;
+  background-image: linear-gradient(to bottom, #bbd594, #cacaca, white);
 }
 body li {
   list-style-type: none;
@@ -25,7 +26,6 @@ body .whatsapp-img {
 
 header {
   width: 100%;
-  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
