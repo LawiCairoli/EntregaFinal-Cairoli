@@ -1,3 +1,4 @@
+@import '../utilities/variables';
 header{
     width: 100%;
     background-color: #ffffff;
@@ -18,7 +19,7 @@ header{
       font-weight: 800;
       a{
         &:hover{
-            color: #4c9141;
+            color: $color-fmc;
             font-size: 0.8rem;
         }
       }

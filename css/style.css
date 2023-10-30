@@ -44,7 +44,7 @@ header .navbar-nav {
   font-weight: 800;
 }
 header .navbar-nav a:hover {
-  color: #4c9141;
+  color: #6FAC21;
   font-size: 0.8rem;
 }
 
@@ -93,7 +93,7 @@ footer ul li a {
   font-weight: 100;
 }
 footer ul li a:hover {
-  color: #4c9141;
+  color: #6FAC21;
   font-size: 0.9rem;
 }
 footer div {
@@ -102,7 +102,7 @@ footer div {
 footer div h4 {
   font-size: 0.8rem;
   font-weight: 600;
-  color: #4c9141;
+  color: #6FAC21;
 }
 footer div h5 {
   font-size: 0.6rem;

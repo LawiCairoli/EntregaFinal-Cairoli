@@ -11,8 +11,8 @@ footer {
     font-size: 0.6rem;
     font-weight: 100;
     &:hover{
-        color: #4c9141;
-        font-size: 0.9rem;
+      color: $color-fmc;
+      font-size: 0.9rem;
     }
   }
   div{
@@ -20,7 +20,7 @@ footer {
     h4{
       font-size: 0.8rem;
       font-weight: 600;
-      color: #4c9141
+      color: $color-fmc;
     }  
     h5{
       font-size: 0.6rem;
