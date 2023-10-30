@@ -1,8 +1,7 @@
+@import '../utilities/extend';
 .presentacion {
   h2{
-    padding-left: 1%;
-    color: $color-fmc;
-    text-shadow: 1px 1px 2px black;
+    @extend h2;
   }
     p{
      padding-left: 2%;

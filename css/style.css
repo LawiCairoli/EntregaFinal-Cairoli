@@ -66,7 +66,7 @@ main h1 .encabezado {
   color: #6FAC21;
   text-shadow: 1px 1px 2px black;
 }
-main h2 {
+main h2, main .containerPlagas h2, .containerPlagas main h2, main .presentacion h2, .presentacion main h2 {
   text-align: center;
   color: #007B4C;
   text-shadow: 1px 1px 2px black;
@@ -130,11 +130,12 @@ footer .footer-nav {
   grid-row: 1/2;
 }
 
-.presentacion h2 {
+h2, .containerPlagas h2, .presentacion h2 {
   padding-left: 1%;
   color: #6FAC21;
   text-shadow: 1px 1px 2px black;
 }
+
 .presentacion p {
   padding-left: 2%;
   padding-right: 2%;
@@ -152,8 +153,6 @@ footer .footer-nav {
   border: 2%;
 }
 .servicios h2 {
-  font-family: helvetica, Arial, sans-serif;
-  color: #1F2724;
   font-size: 1.9rem;
   text-align: center;
   text-decoration-line: underline;
@@ -184,12 +183,6 @@ footer .footer-nav {
   transition: 2s;
 }
 
-.containerPlagas h2 {
-  color: #6FAC21;
-  text-shadow: 1px 1px 2px black;
-  text-align: center;
-  margin: 2%;
-}
 .containerPlagas p {
   margin: 0% 5%;
 }
@@ -226,7 +219,7 @@ form {
   body main h1 .encabezado {
     font-size: 1.5rem;
   }
-  body main h2 {
+  body main h2, body main .presentacion h2, .presentacion body main h2, body main .containerPlagas h2, .containerPlagas body main h2 {
     font-size: 0.8rem;
   }
   body .whatsapp-img {
@@ -277,7 +270,7 @@ form {
   body main h1 .encabezado {
     font-size: 1.5rem;
   }
-  body main h2 {
+  body main h2, body main .presentacion h2, .presentacion body main h2, body main .containerPlagas h2, .containerPlagas body main h2 {
     font-size: 0.8rem;
   }
   body .whatsapp-img {

@@ -1,0 +1,8 @@
+@mixin imgwsp($ancho, $radio){
+    width: $ancho;
+    border-radius: $radio;
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+
+}
