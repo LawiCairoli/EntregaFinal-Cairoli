@@ -1,7 +1,7 @@
 @import '../utilities/mixin';
 body{
-    background-color: #ffffff;
-    background-image: linear-gradient(to bottom, #bbd594, #cacaca, white);
+  background: rgb(187,213,148);
+  background: linear-gradient(135deg, rgba(187,213,148,1) 0%, rgba(202,202,202,1) 56%, rgba(255,255,255,1) 100%);
     li {
         list-style-type: none;
       }

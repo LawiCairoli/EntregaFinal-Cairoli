@@ -1,6 +1,13 @@
 .containerPlagas {
   h2{
-    @extend h2;
+    font-size: 1.9rem;
+    text-align: center;
+    text-decoration-line: underline;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    color: $color-fmc;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 5%;
   }
   p{
     margin: 0% 5%;
@@ -14,7 +21,7 @@
       border-radius: 5%;
       margin: 2%;
       &:hover{
-        transition: 3s;
+        transition: all 3s;
         width: 30%;
       }
     }

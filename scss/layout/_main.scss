@@ -1,3 +1,4 @@
+// @import '../utilities/animation';
 main{
     padding-bottom: 5%;
     h1 {
@@ -16,8 +17,13 @@ main{
       }
     }
     h2 {
-      text-align: center;
-      color : #007B4C;
+    text-align: center;
+      // color : #007B4C;
+      animation-name: cambioColor;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in;
+      animation-duration: 10s;
+      animation-delay: 1s;
       text-shadow: 1px 1px 2px black;
     }
     p{
@@ -27,3 +33,14 @@ main{
       font-size: 0.85rem;
     }
   }
+  @keyframes cambioColor {
+    0%{
+        color: #0d1912;
+    }
+    15%{
+        color: #133d28;
+    }
+    100%{
+        color: #007B4C;
+    }
+}
