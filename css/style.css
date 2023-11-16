@@ -25,6 +25,8 @@ body .whatsapp-img {
 }
 
 header {
+  background: rgb(187, 213, 148);
+  background: linear-gradient(135deg, rgb(187, 213, 148) 0%, rgb(202, 202, 202) 56%, rgb(255, 255, 255) 100%);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -336,6 +338,11 @@ form ul li button:hover {
     font-size: 0.7rem;
     font-weight: 200;
   }
+}
+h2, .presentacion h2 {
+  padding-left: 1%;
+  color: #6FAC21;
+  text-shadow: 1px 1px 2px black;
 }
 
 /*# sourceMappingURL=style.css.map */

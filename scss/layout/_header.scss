@@ -1,27 +1,28 @@
 @import '../utilities/variables';
 header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 2%;
-    z-index: 100;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    img{
-        width: 30%;
-        padding-left: 5%;
-      }
-    .navbar-nav{
-      font-size: 0.6rem;
-      font-weight: 800;
-      a{
-        &:hover{
-            color: $color-fmc;
-            font-size: 0.8rem;
-            transition: all 2s;
-        }
+  background: rgb(187,213,148);
+  background: linear-gradient(135deg, rgba(187,213,148,1) 0%, rgba(202,202,202,1) 56%, rgba(255,255,255,1) 100%);  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 2%;
+  z-index: 100;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  img{
+      width: 30%;
+      padding-left: 5%;
+    }
+  .navbar-nav{
+    font-size: 0.6rem;
+    font-weight: 800;
+    a{
+      &:hover{
+          color: $color-fmc;
+          font-size: 0.8rem;
+          transition: all 2s;
       }
     }
   }
+}
